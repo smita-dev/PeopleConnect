@@ -1,1 +1,1 @@
-# PeopleConnect
+# StudentConnect
