@@ -6,8 +6,9 @@ const router=express.Router();
 //@Desc    test route
 //@access  public
 
-router.get('/',(req,res)=>{
+router.post('/',(req,res)=>{
     console.log("in user router");
+    console.log(req.body);
     res.send("in user api")
 })
 
